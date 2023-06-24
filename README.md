@@ -66,6 +66,9 @@ To start your bot
 ```
 node src/index.js 
 ```
+
+- You can download all the emoji of this bot from [Here](./emote/) (Changing Emoji will be little complex for you)
+
 ###
 If you liked this repository, feel free to leave a star ⭐ to help promote !
 
