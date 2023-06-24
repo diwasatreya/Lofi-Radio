@@ -3,22 +3,6 @@
   "version": "1.0.0",
   "description": "It is a discord music bot which can play lo-fi song 24/7 & more functions of lofi radio bot",
   "main": "src/index.js",
-  "repository": "https://github.com/diwasatreya/Lofi-Radio.git",
-  "author": "diwasatreya",
-  "license": "ISC",
-  "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
-  },
-  "keywords": [
-    "lavalink",
-    "shoukaku",
-    "lofi-radio",
-    "discord-music",
-    "discord"
-  ],
-  "bugs": "https://github.com/diwasatreya/Lofi-Radio/issues",
-  "homepage": "https://github.com/diwasatreya/Lofi-Radio#readme",
   "dependencies": {
     "canvas": "^2.11.2",
     "canvas-constructor": "^4.1.0",
@@ -39,5 +23,24 @@
     "path": "^0.12.7",
     "shoukaku": "^3.4.0",
     "util": "^0.12.5"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwasatreya/Lofi-Radio.git"
+  },
+  "keywords": [
+    "lavalink",
+    "discord-lofi",
+    "discord-music-bot"
+  ],
+  "author": "diwasatreya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwasatreya/Lofi-Radio/issues"
+  },
+  "homepage": "https://github.com/diwasatreya/Lofi-Radio#readme"
 }
