@@ -67,6 +67,22 @@ To start your bot
 node src/index.js 
 ```
 
+For replit 
+- Open Hidden Files
+- Goto replit.nix and copy this and paste in that file
+  ```
+  { pkgs }: {
+	deps = [
+    pkgs.libuuid
+		pkgs.nodejs-18_x
+    pkgs.nodePackages.typescript-language-server
+    pkgs.yarn
+    pkgs.replitPackages.jest
+	];
+  env = { LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [pkgs.libuuid];  };
+}
+```
+
 - You can download all the emoji of this bot from [Here](./emote/) (Changing Emoji will be little complex for you)
 
 ###
