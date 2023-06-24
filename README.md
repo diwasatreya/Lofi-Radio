@@ -68,8 +68,8 @@ node src/index.js
 ```
 
 For replit 
-- Open Hidden Files
-- Goto replit.nix and copy this and paste in that file
+Open Hidden Files
+Goto replit.nix and copy this and paste in that file  
   ```
   { pkgs }: {
 	deps = [
