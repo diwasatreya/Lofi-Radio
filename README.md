@@ -67,9 +67,10 @@ To start your bot
 node src/index.js 
 ```
 
-For replit 
-Open Hidden Files
-Goto replit.nix and copy this and paste in that file  
+For replit: Open Hidden Files => Goto `replit.nix` and copy these and paste in that file 
+
+[![Run on Repl.it](https://repl.it/badge/github/diwasatreya/Lofi-Radio)](https://repl.it/github/diwasatreya/Lofi-Radio)
+
   ```
   { pkgs }: {
 	deps = [
