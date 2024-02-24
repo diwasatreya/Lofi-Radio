@@ -22,7 +22,7 @@ const res = await db2.findOne({ Guild: interaction.guildId });
     if (res && res.mode) mode = res.mode;
     
 const np = new MessageEmbed()
-  .setAuthor({ name: `${client.user.username} Premium`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+  .setAuthor({ name: `${client.user.username} Premium`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                     .setDescription(`
 **<:heart:1121845314341581022> Premium perks:
 <:blank:1120331253569302619><:notes:1119915814733217843> 24/7 Music Playback.

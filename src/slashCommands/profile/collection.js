@@ -42,7 +42,7 @@ module.exports = {
     let page = 0;
 
     const embed = new MessageEmbed()
-      .setAuthor({ name: `Liked Songs Collection`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+      .setAuthor({ name: `Liked Songs Collection`, iconURL: client.user.displayAvatarURL(), url: `hhttps://discord.gg/CdCfgSC3qy` })
       .setColor(client.embedColor)
       .setDescription(`\n\n${pages[page]}`);
     if (pages.length <= 1) {

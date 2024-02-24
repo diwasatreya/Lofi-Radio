@@ -22,7 +22,7 @@ module.exports = {
       new MessageButton().setEmoji("1119915847809515671").setLabel('Support Server').setStyle('LINK').setURL(support),
     );
     const embed = new MessageEmbed()
-      .setAuthor({ name: `${client.user.username}'s' support server`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+      .setAuthor({ name: `${client.user.username}'s' support server`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
       .setDescription(`**Click [Here](${support}) To Join Support Server** `)
       .setColor(color);
     await interaction.editReply({ embeds: [embed], components: [row], ephemeral: true });

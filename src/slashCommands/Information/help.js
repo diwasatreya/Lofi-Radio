@@ -28,8 +28,8 @@ module.exports = {
     
 
     const embed = new MessageEmbed()
-        .setColor(`#DDBD86`)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+        .setColor(`#CF5BDF`)
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
 
           .setDescription(`
 <:notes:1119915814733217843> **Music:**
@@ -49,7 +49,7 @@ module.exports = {
 <:blank:1120331253569302619><:gear:1119915784756531331> **/settings:** Shows and configures server settings.
 <:blank:1120331253569302619><:premium:1119915823964893214>  **/premium:** Shows information about Lofi Radio premium.
 <:info:1119915789030535178> **Info:**
-<:blank:1120331253569302619><:telegram:1119915847809515671> **/support:** Send us a message or [join](https://discord.gg/aromax-development-708565122188312579) our support server.
+<:blank:1120331253569302619><:telegram:1119915847809515671> **/support:** Send us a message or [join](https://discord.gg/CdCfgSC3qy) our support server.
 <:blank:1120331253569302619><:like:1119915795565269112> **/vote:** Vote for Lofi Radio.
 <:blank:1120331253569302619><:invite:1119915791521955970> **/invite:** [Invite](https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands) Lofi Radio to your server.
 `)
@@ -57,7 +57,7 @@ module.exports = {
 const b1 = new MessageButton().setLabel(`Play`).setCustomId(`play`).setEmoji(`1119915811415539722`).setStyle('SECONDARY').setDisabled(false)
         const b2 = new MessageButton().setLabel(`Stop`).setCustomId(`stop`).setEmoji(`1119915842893783052`).setStyle('SECONDARY').setDisabled(false)
         const b3 = new MessageButton().setLabel(`Vote`).setEmoji('1119915795565269112')
-    .setURL(`https://discord.gg/aromax-development-708565122188312579`)
+    .setURL(`https://discord.gg/CdCfgSC3qy`)
 	.setStyle(`LINK`).setDisabled(false)
         const b4 = new MessageButton() .setLabel(`Invite`)
       .setEmoji('1119915791521955970')
@@ -89,7 +89,7 @@ const b5 = new MessageButton().setLabel(`Play`).setCustomId(`play`).setEmoji(`11
  const collector = m.createMessageComponentCollector({ filter, componentType: 'BUTTON', time: 30000 });
     
   const played = new MessageEmbed()
-                    .setColor("#DDBD86")
+                    .setColor("#CF5BDF")
                     .setDescription(`
 <:notes:1119915814733217843> Successfully joined and bound to ${interaction.member.voice.channel}.
 <:blank:1120331253569302619><:dvd:1119915776732827778> **You can enable 24/7 mode by voting here.**`)
@@ -107,7 +107,7 @@ const b5 = new MessageButton().setLabel(`Play`).setCustomId(`play`).setEmoji(`11
           if (interaction.guild.members.me.voice.channelId !== interaction.member.voice.channelId) {
             return await i
               .followUp({ embeds: [{
-      color: '#DDBD86',
+      color: '#CF5BDF',
       description: `<:loud:1119915800535511070> You have to be in same voice channel to use this command.`
     }], ephemeral: true})
               .catch(() => { });
@@ -115,7 +115,7 @@ const b5 = new MessageButton().setLabel(`Play`).setCustomId(`play`).setEmoji(`11
         } else if (!i.member.voice.channel) {
         return await i
           .followUp({ embeds: [{
-      color: '#DDBD86',
+      color: '#CF5BDF',
       description: `<:loud:1119915800535511070> You have to be connected to a voice channel to use this command.`
     }], ephemeral: true})
           .catch(() => { });
@@ -176,7 +176,7 @@ if(station == "Anime lo-fi")
     if (!result.tracks.length) return interaction.editReply({ content: 'No result was found' });
     const tracks = result.tracks;
  const bb = new MessageButton().setLabel(`Vote for ${client.user.username}`).setEmoji('1119915795565269112')
-    .setURL(`https://discord.gg/aromax-development-708565122188312579`)
+    .setURL(`https://discord.gg/vayuesports`)
 	.setStyle(`LINK`).setDisabled(false)
                 
                       if (result.type === "PLAYLIST") for (let track of result.tracks) player.queue.add(track);
@@ -195,7 +195,7 @@ const player = client.manager.players.get(i.guild.id);
           if (interaction.guild.members.me.voice.channelId !== interaction.member.voice.channelId) {
             return await i
               .followUp({ embeds: [{
-      color: '#DDBD86',
+      color: '#CF5BDF',
       description: `👋`
     }], ephemeral: true})
               .catch(() => { });
@@ -204,7 +204,7 @@ const player = client.manager.players.get(i.guild.id);
         if (!i.member.voice.channel) {
         return await i
           .followUp({ embeds: [{
-      color: '#DDBD86',
+      color: '#CF5BDF',
       description: `👋`
     }], ephemeral: true})
           .catch(() => { });
@@ -214,7 +214,7 @@ if(player.queue.current) {
 await player.destroy(interaction.guild.id);
 
 await i.followUp({ embeds: [{
-      color: '#DDBD86',
+      color: '#CF5BDF',
       description: `<:stop:1119915842893783052> Successfully disconnected from ${i.member.voice.channel}
  `
     }]})

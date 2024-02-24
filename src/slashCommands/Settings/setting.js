@@ -27,7 +27,7 @@ const res = await db2.findOne({ Guild: interaction.guildId });
 
 
 if(!ress){
-  station = "Lofi Radio (Default)"
+  station = "Radio (Default)"
 }
 
     if(!res){
@@ -36,7 +36,7 @@ if(!ress){
     
     
 const np = new MessageEmbed()
-  .setAuthor({ name: `${client.user.username} Setting`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+  .setAuthor({ name: `${client.user.username} Setting`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
 //                     .setDescription(`
 // <:notes:1119915814733217843> **Playing Song:**
 // <:blank:1120331253569302619><:next:1119915811415539722> **${song.title}**`)
