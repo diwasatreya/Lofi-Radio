@@ -35,7 +35,7 @@ const ress = await db2.findOne({ Guild: interaction.guildId });
       
             let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-              .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+              .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setDescription(`<:dvd:1119915776732827778> Current Radio Mode: **${mode}**`)
 
 
@@ -97,7 +97,7 @@ collector.on('end', async () => {
         if (i.customId === 'two') {
     
          let slp = new MessageEmbed()
-           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setColor(client.embedColor)
                 .setDescription(`<:dvd:1119915776732827778> Current Radio Mode: **24/7** `)
 
@@ -144,7 +144,7 @@ collector.on('end', async () => {
     
          let slp = new MessageEmbed()
                 .setColor(client.embedColor)
-           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setDescription(`<:dvd:1119915776732827778> Current Radio Mode: **Auto Play** `)
 
    if(!player){
@@ -181,7 +181,7 @@ interaction.editReply({ embeds: [slp], components:[row4] })
     
          let slp = new MessageEmbed()
                 .setColor(client.embedColor)
-           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+           .setAuthor({ name: `${client.user.username} - Modes`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setDescription(`<:dvd:1119915776732827778> Current Radio Mode: **Session** `)
 
    if(!player){
@@ -213,7 +213,7 @@ interaction.editReply({ embeds: [slp], components:[row4] })
             if (i.customId === 'info') {
     
          let slp = new MessageEmbed()
-           .setAuthor({ name: `${client.user.username} - Help`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+           .setAuthor({ name: `${client.user.username} - Help`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setColor(client.embedColor)
            
                 .setDescription(`

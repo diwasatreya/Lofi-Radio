@@ -21,10 +21,10 @@ module.exports = {
         if (data) {
 
 const thing = new MessageEmbed()
-  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
 .setDescription(`
 <:dj:1119915773742288917> **Successfully removed all DJ roles in this server**
-<:blank:1120331253569302619><:star:1119915839064379472> **/djmode add** To add djroles for lo-fi radio.
+<:blank:1120331253569302619><:star:1119915839064379472> **/djmode add** To add djroles for radio.
 `)
 .setColor(client.embedColor);
 
@@ -35,9 +35,9 @@ const thing = new MessageEmbed()
             await data.delete()
             return interaction.editReply({ embeds: [thing] })
         } else {
-           const things =  new MessageEmbed().setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+           const things =  new MessageEmbed().setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
 .setDescription(`<:dj:1119915773742288917> **Please setup Dj roles first for this server** 
-<:blank:1120331253569302619><:star:1119915839064379472> **/djmode add** To add djroles for lo-fi radio.`)
+<:blank:1120331253569302619><:star:1119915839064379472> **/djmode add** To add djroles for radio.`)
 .setColor(client.embedColor)
           return interaction.editReply({ embeds: [things] })
         }

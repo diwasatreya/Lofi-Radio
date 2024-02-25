@@ -28,7 +28,7 @@ const ress = await db1.findOne({ Guild: interaction.guildId });
       
             let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setDescription(`
                 Sleep Timer lets you fall asleep to lofi tunes. At the end of the countdown Lofi Radio will disconnect you from the voice channel, allowing you to sleep well and stops your battery from draining.
                 <:timer:1121732448670199879> **Timer Status**
@@ -176,7 +176,7 @@ if (options === 'half') {
 
         let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
                 .setDescription(`
                 Sleep Timer lets you fall asleep to lofi tunes. At the end of the countdown Lofi Radio will disconnect you from the voice channel, allowing you to sleep well and stops your battery from draining.
                 <:timer:1121732448670199879> **Timer Status**
@@ -215,7 +215,7 @@ function intervalFunc() {
     
         let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
              .setDescription(`
                 Sleep Timer lets you fall asleep to lofi tunes. At the end of the countdown Lofi Radio will disconnect you from the voice channel, allowing you to sleep well and stops your battery from draining.
                 <:timer:1121732448670199879> **Timer Status**
@@ -253,7 +253,7 @@ function intervalFunc() {
     
         let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
           .setDescription(`
                 Sleep Timer lets you fall asleep to lofi tunes. At the end of the countdown Lofi Radio will disconnect you from the voice channel, allowing you to sleep well and stops your battery from draining.
                 <:timer:1121732448670199879> **Timer Status**
@@ -291,7 +291,7 @@ function intervalFunc() {
     
         let thing = new MessageEmbed()
                 .setColor(client.embedColor)
-          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+          .setAuthor({ name: `${client.user.username}`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
           .setDescription(`
                 Sleep Timer lets you fall asleep to lofi tunes. At the end of the countdown Lofi Radio will disconnect you from the voice channel, allowing you to sleep well and stops your battery from draining.
                 <:timer:1121732448670199879> **Timer Status**

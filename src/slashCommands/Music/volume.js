@@ -36,7 +36,7 @@ module.exports = {
 
     const player = client.manager.players.get(interaction.guildId);
     if (!player.queue.current) {
-      let thing = new MessageEmbed().setColor(client.embedColor).setDescription('There is no lo-fi playing.');
+      let thing = new MessageEmbed().setColor(client.embedColor).setDescription('There is no radio playing.');
       return interaction.editReply({ embeds: [thing] });
     }
     const volume = Number(vol);

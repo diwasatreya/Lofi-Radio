@@ -27,7 +27,7 @@ process.on('multipleResolves', (type, promise, reason) => {
 require('node:http')
   .createServer((_, res) =>
     res.end(
-      `Developed by DIWAS ATREYA`,
+      `Developed by `,
     ),
   )
   .listen(8080);

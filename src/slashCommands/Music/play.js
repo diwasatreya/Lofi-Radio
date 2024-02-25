@@ -114,7 +114,7 @@ if(station == "Anime lo-fi")
 <:blank:1120331253569302619><:dvd:1119915776732827778> **You can enable 24/7 mode by voting here.**`)
 
  const bb = new MessageButton().setLabel(`Vote for ${client.user.username}`).setEmoji('1119915795565269112')
-    .setURL(`https://discord.gg/aromax-development-708565122188312579`)
+    .setURL(`https://discord.gg/CdCfgSC3qy`)
 	.setStyle(`LINK`).setDisabled(false)
 
 if (result.type === "PLAYLIST") {

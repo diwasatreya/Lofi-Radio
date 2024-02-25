@@ -36,7 +36,7 @@ module.exports = {
             await data.save();
 
 const thing = new MessageEmbed()
-  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
   
 .setDescription(`<:dj:1119915773742288917> **Successfully added DJ Role in this server** 
 <:blank:1120331253569302619><:star:1119915839064379472> **Role:** <@&${role}>.`)
@@ -45,7 +45,7 @@ const thing = new MessageEmbed()
 
 
      const things   =  new MessageEmbed()
-       .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+       .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
        
 .setDescription(`<:dj:1119915773742288917> **Role already exist in this server.** 
 <:blank:1120331253569302619><:star:1119915839064379472> **Role:** <@&${role}>.`)
@@ -55,7 +55,7 @@ const thing = new MessageEmbed()
             return await interaction.editReply({ embeds: [thing] })
         } else {
           const thing = new MessageEmbed()
-  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/aromax-development-708565122188312579` })
+  .setAuthor({ name: `${client.user.username} - DJRoles`, iconURL: client.user.displayAvatarURL(), url: `https://discord.gg/CdCfgSC3qy` })
   
 .setDescription(`<:dj:1119915773742288917> **Successfully added DJ Role in this server** 
 <:blank:1120331253569302619><:star:1119915839064379472> **Role:** <@&${role}>.`)
